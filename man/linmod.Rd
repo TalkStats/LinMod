@@ -4,6 +4,14 @@
 \usage{
   linmod(y, X, V = diag(length(y)))
 }
+\arguments{
+  \item{y}{numeric.  A vector of the responses}
+
+  \item{X}{matrix.  The model matrix of predictors.}
+
+  \item{V}{weights.  Option weights to use to fit the
+  model}
+}
 \description{
   This creates a simple linear model.
 }

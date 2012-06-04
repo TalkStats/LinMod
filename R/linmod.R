@@ -1,6 +1,10 @@
 ##' Create a simple linear model
 ##' 
 ##' This creates a simple linear model.
+##' 
+##' @param y numeric.  A vector of the responses
+##' @param X matrix.  The model matrix of predictors.
+##' @param V weights.  Option weights to use to fit the model
 ##' @export
 ##' @examples
 ##' X <- matrix(c(rep(1, 20), 1:20), ncol = 2)
